@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0 3vw;
+  }
+  img.nagyok {
+    margin: 20px 0px; 
+    border: 5px solid lightsalmon;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  h1 {
+    
+    border: 5px solid lightsalmon;
+  }
+  h2 {
+    text-decoration: underline;
+  }
+  
+  #tanulmanyok img {
+    width: 300px;
+  }
+  #magamrol img {
+    width: 100px;
+    float: right;
+  }
+  
+  #hobbim img {
+    width: 250px;
+  }
+  #celok img {
+    width: 250px;
+  }
+  #munkahelyeim img {
+    width: 250px;
+  }
+  #elerteredmenyek img {
+    width: 300px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito", sans-serif;
+  }
+  nav ul li a {
+    color: white;
+    padding: 14px 16px;
+    display: block;
+  }
+  nav ul {
+    background-color: lightseagreen;
+  }
+  body {
+    font-family: 'Ibarra Real Nova', serif;
+  }
+  li:hover {
+    background-color:lightsalmon;
+  }
+  #hobbykepek img {
+    width: calc(90vw / 6);
+    height: calc(90vw / 6);
+    margin: 0px 5px 0 0;
+    display: block;
+    object-fit: cover;
+  }
+  #hobbykepek {
+    justify-content: center;
+    border: 3px solid lightsalmon;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  #hobbi1 img {
+    margin: 0 5px;
+  }
+  
+  
